@@ -4,7 +4,6 @@ var randName = uniqueName(nameList);
 module.exports = {
     names: nameList
     , randName: random
-    , all: all
 };
 
 function random(number) {
@@ -18,12 +17,4 @@ function random(number) {
         }
         return randomName;
     }
-}
-
-function all() {
-    var allNames = "";
-    nameList.forEach(function (item) {
-        all = all + "," + item;
-    });
-    return allNames;
 }
