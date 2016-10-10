@@ -1,44 +1,44 @@
 {
-  "name": "mylib",
-  "description": "this is my library to learn how to contribute to open source",
-  "main": "src/index.js",
-  "scripts": {
-    "commit": "git-cz",
-    "test": "mocha -w",
-    "test:single": "mocha",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/surender7790/mylib.git"
-  },
-  "keywords": [
-    "javascript",
-    "mocha",
-    "mylib",
-    "travis",
-    "git",
-    "github",
-    "open",
-    "source"
-  ],
-  "author": "'Surender <'surender7790@gmail.com'> (http://surenderkumar.me/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/surender7790/mylib/issues"
-  },
-  "homepage": "https://github.com/surender7790/mylib#readme",
-  "dependencies": {
-    "unique-random-array": "1.0.0"
-  },
-  "devDependencies": {
-    "chai": "3.2.0",
-    "commitizen": "2.8.6",
-    "cz-conventional-changelog": "1.2.0",
-    "mocha": "2.2.0",
-    "semantic-release": "^4.3.5"
-  },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
-  }
+    "name": "mylib7790"
+    , "description": "this is my library to learn how to contribute to open source"
+    , "main": "src/index.js"
+    , "scripts": {
+        "commit": "git-cz"
+        , "test": "mocha -w"
+        , "test:single": "mocha"
+        , "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    }
+    , "repository": {
+        "type": "git"
+        , "url": "https://github.com/surender7790/mylib.git"
+    }
+    , "keywords": [
+    "javascript"
+    , "mocha"
+    , "mylib"
+    , "travis"
+    , "git"
+    , "github"
+    , "open"
+    , "source"
+  ]
+    , "author": "'Surender <'surender7790@gmail.com'> (http://surenderkumar.me/)"
+    , "license": "MIT"
+    , "bugs": {
+        "url": "https://github.com/surender7790/mylib/issues"
+    }
+    , "homepage": "https://github.com/surender7790/mylib#readme"
+    , "dependencies": {
+        "unique-random-array": "1.0.0"
+    }
+    , "devDependencies": {
+        "chai": "3.2.0"
+        , "commitizen": "2.8.6"
+        , "cz-conventional-changelog": "1.2.0"
+        , "mocha": "2.2.0"
+        , "semantic-release": "^4.3.5"
+    }
+    , "czConfig": {
+        "path": "node_modules/cz-conventional-changelog"
+    }
 }
