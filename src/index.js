@@ -21,8 +21,9 @@ function random(number) {
 }
 
 function all() {
-    var all = "";
+    var allNames = "";
     nameList.forEach(function (item) {
-        all = all + " item";
+        all = all + "," + item;
     });
+    return allNames;
 }
