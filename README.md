@@ -5,3 +5,16 @@
 [![Downloads](https://img.shields.io/npm/dm/mylib7790.svg?maxAge=2592000)](https://www.npmjs.com/package/mylib7790)
 [![Version](https://img.shields.io/npm/v/mylib7790.svg?maxAge=2592000)](https://www.npmjs.com/package/mylib7790)
 [![Licence](https://img.shields.io/npm/l/mylib7790.svg?maxAge=2592000)](https://www.npmjs.com/package/mylib7790)
+
+
+
+##Fork it and follow the instruction.
+
+##npm install
+##npm test
+
+##Contribute in library
+
+##git add .
+##npm run commit
+##Push in your branch. After it will be merged to master branch
