@@ -1,5 +1,5 @@
-var uniqueName = require('unique-random-array');
-var nameList = require('./name_list.json');
+import uniqueName from 'unique-random-array';
+import nameList from './name_list.json';
 var randName = uniqueName(nameList);
 module.exports = {
     names: nameList

@@ -1,5 +1,8 @@
-var expect = require('chai').expect;
-var nameList = require('../src/index');
+import {
+    expect
+}
+from 'chai';
+import nameList from '../src/index';
 /*This is test written*/
 describe('names', function () {
     it("Should be array of strings", function () {
